@@ -4,22 +4,28 @@ body{
     font-size: x-large;
     background-color: #1b1811;
 }
+
 .navcontainer{
     width: 90%;
     margin:0;
 }
+
 header{
-    background-color: #000080;
-    
+    background-color: rgb(52, 72, 73);    
+    position: fixed; 
+    width: 100%;
 }
+
 header::after{
     content: "";
     display: table;
     clear: both;
 }
+
 nav{
     float: right;
 }
+
 nav ul{
     margin: 0;
     padding: 0;
@@ -43,4 +49,28 @@ nav a:hover{
     width: 120px;
     height: 50px;
     padding-top: 10px;
+}
+
+
+.home{
+    background-image: url(./Assets/purplebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    height: 600px;
+    text-align: left;
+    margin: 0 10%;
+}
+
+
+.hometxt{
+    margin-top: 20%;
+    margin-left: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #00ffff;
+}
+.kev{
+    height: 95%;
+    margin-left: 25%;
 }
