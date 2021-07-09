@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: 'Jomhuria', cursive;
+    font-size: x-large;
+    background-color: #1b1811;
+}
+.navcontainer{
+    width: 90%;
+    margin:0;
+}
+header{
+    background-color: #000080;
+    
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 24px;
+}
+nav a{
+     color: #00ffff;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+nav a:hover{
+    color: purple;
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 50px;
+    padding-top: 10px;
+}
