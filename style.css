@@ -1,3 +1,6 @@
+*{
+    font-family: 'IM Fell Great Primer', serif;
+}
 body{
     margin: 0;
     font-family: 'Jomhuria', cursive;
@@ -69,9 +72,10 @@ nav a:hover{
 .social{
     margin-top: 15%;
     height: 35%;
-    
+    font-size: x-large;
     
 }
+
 .social p{
     color: #00ffff;
     margin-left: 20px;
@@ -109,18 +113,24 @@ nav a:hover{
 }
 .projectscontainer h2{
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;  
-    /* height: 120px;  */
+    font-family: 'IM Fell Great Primer', serif;
+     
+
+}
+.projects{
+    height: 400px; 
 }
 
 .project1, .project2{
     width: 40%;
+    height: fit-content;
     box-shadow: 0px 2px 10px 2px gray;
     margin-left: 5%; 
+    margin-top:10%;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-family: 'IM Fell Great Primer', serif;
     color: wheat;
-    
+    font-size: larger; 
 }
 a{
     color:blue ;
@@ -144,7 +154,9 @@ a{
     color: wheat;
     box-shadow: 0px 2px 10px 2px gray;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'IM Fell Great Primer', serif;
+    color: white;
+    font-size: larger; 
 
 }
 .aboutcontainer h2{
