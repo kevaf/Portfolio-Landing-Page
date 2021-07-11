@@ -63,6 +63,23 @@ nav a:hover{
     /* margin: 0 3%; */
 }
 
+.social{
+    margin-top: 15%;
+    height: 35%;
+    
+    
+}
+.social p{
+    color: #00ffff;
+    margin-left: 20px;
+}
+
+.social ul{
+    list-style: none;
+}
+.social li{
+    margin-top: 25px
+}
 
 .hometxt{
     margin-top: 20%;
