@@ -147,6 +147,10 @@ a{
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
+.aboutcontainer h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 
 .about img{
     height:350px;
@@ -162,4 +166,5 @@ a{
 .footer p{
 text-align: center;
 font-size:large;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
